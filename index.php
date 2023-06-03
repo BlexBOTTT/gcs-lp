@@ -120,7 +120,7 @@
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img1.png" class="img-responsive" alt="" style="width: 100%;"></a>
+                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img1.png" class="img-responsive" alt=""></a>
                               </div>
                               <div class="media-body blog-info">
                                    <h3><a href="blog-detail.html">Sympathetic</a></h3>
