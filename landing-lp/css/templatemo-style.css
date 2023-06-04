@@ -511,6 +511,8 @@ http://www.templatemo.com/tm-509-hydro
     color: #ffffff;
     position: relative;
     padding-top: 12em;
+
+    flex-wrap: wrap;
   }
 
   #blog-header h2 {
@@ -525,7 +527,9 @@ http://www.templatemo.com/tm-509-hydro
     border-radius: 3px;
     text-align: left;
     margin-bottom: 30px;
-    height: 350px;
+    height: 100%;
+
+    
   }
 
   .media.blog-thumb .media-left {
@@ -552,7 +556,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   .blog-info {
-    padding: 75px 25px;
+    padding: 25px 25px;
   }
 
   .blog-info h3 {
@@ -932,7 +936,7 @@ http://www.templatemo.com/tm-509-hydro
     }
 
     .blog-info {
-      padding: 45px 25px;
+      padding: 25px 25px;
     }
 
     .media.blog-thumb .media-left {
@@ -943,18 +947,26 @@ http://www.templatemo.com/tm-509-hydro
     }
 
     .media.blog-thumb .media-left {
-      height: 250px;
+      /* height: 250px; */
     }
 
     .media.blog-thumb .media-left img {
-      position: relative;
+      margin: auto;
+      padding: 25px;
       bottom: 10em;
+
+      object-fit: cover;
+     
     }
 
     #work .work-thumb,
     .footer-thumb {
       margin-top: 20px;
       margin-bottom: 30px;
+    }
+
+    .about-image {
+      width: 150px; height: 150px;
     }
   }
 
@@ -963,15 +975,7 @@ http://www.templatemo.com/tm-509-hydro
     #blog-header {
       height: 100vh;
     }
-
-    .media.blog-thumb .media-left {
-      height: 550px;
-    }
-
-    .media.blog-thumb .media-left img {
-      position: relative;
-      bottom: 10em;
-    }
+    
   }
 
   @media screen and (max-width: 767px) {
@@ -1027,6 +1031,14 @@ http://www.templatemo.com/tm-509-hydro
       margin: 40px 0 40px 0;
     }
 
+    .about-image {
+      width: 150px; 
+      height: 150px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10%;
+    }
+
     .google-map {
       margin-top: 50px;
     }
@@ -1042,18 +1054,11 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   @media screen and (max-width: 639px) {
-
     h1 {
       font-size: 2em;
     }
 
-    .media.blog-thumb .media-left {
-      height: 320px;
-    }
-
-    .media.blog-thumb .media-left img {
-      position: relative;
-      bottom: 6em;
-    }
     
-  }
+
+}
+

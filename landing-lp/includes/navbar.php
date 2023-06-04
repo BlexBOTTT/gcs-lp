@@ -19,16 +19,16 @@
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#home" class="smoothScroll">Home</a></li>
                          <li><a href="#about" class="smoothScroll">About</a></li>
-                         <li><a href="#blog" class="smoothScroll">Blog</a></li>
-                         <li><a href="#work" class="smoothScroll">Our Work</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contacts</a></li>
+                         <li><a href="#blog" class="smoothScroll">Responsibility</a></li>
+                         <li><a href="#work" class="smoothScroll">Services</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                          <li><a href="https://www.facebook.com/mysfaclp"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="https://twitter.com/mysfacs"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="https://www.instagram.com/mysfacs"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Sign-in</a></li>
+                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Log-in</a></li>
                     </ul>
                </div>
 

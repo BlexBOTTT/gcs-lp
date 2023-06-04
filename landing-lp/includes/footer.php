@@ -4,12 +4,12 @@
 
                     <div class="col-md-5 col-sm-12">
                          <div class="footer-thumb footer-info"> 
-                              <h2>Hydro Company</h2>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                              <h2>Saint Francis of Assisi College - Las Piñas Campus</h2>
+                              <p>Las Piñas Campus 45 Admiral, Las Piñas, 1740 Metro Manila, Philippines</p>
                          </div>
                     </div>
 
-                    <div class="col-md-2 col-sm-4"> 
+                    <!-- <div class="col-md-2 col-sm-4"> 
                          <div class="footer-thumb"> 
                               <h2>Company</h2>
                               <ul class="footer-link">
@@ -19,9 +19,9 @@
                                    <li><a href="#">Press</a></li>
                               </ul>
                          </div>
-                    </div>
+                    </div> -->
 
-                    <div class="col-md-2 col-sm-4"> 
+                    <!-- <div class="col-md-2 col-sm-4"> 
                          <div class="footer-thumb"> 
                               <h2>Services</h2>
                               <ul class="footer-link">
@@ -30,12 +30,14 @@
                                    <li><a href="#">Support</a></li>
                               </ul>
                          </div>
-                    </div>
+                    </div> -->
+
+                   
 
                     <div class="col-md-3 col-sm-4"> 
-                         <div class="footer-thumb"> 
-                              <h2>Find us</h2>
-                              <p>123 Grand Rama IX, <br> Krung Thep Maha Nakhon 10400</p>
+                         <div class="footer-thumb">
+                              <h2> </h2> 
+                              <img src="landing-lp/images/logo.png" alt="" style="width: 150px; height: 150px;">
                          </div>
                     </div>                    
 
@@ -43,17 +45,17 @@
                          <div class="footer-bottom">
                               <div class="col-md-6 col-sm-5">
                                    <div class="copyright-text"> 
-                                        <p>Copyright &copy; 2017 Your Company</p>
+                                        <p>Copyright &copy; 2023 by <a href="https://templatemo.com">Hydro</a></p>
                                    </div>
                               </div>
                               <div class="col-md-6 col-sm-7">
                                    <div class="phone-contact"> 
-                                        <p>Call us <span>(+66) 010-020-0340</span></p>
+                                        <p>Call us <span>(+63) 0933-946-8066</span></p>
                                    </div>
                                    <ul class="social-icon">
                                         <li><a href="https://www.facebook.com/templatemo" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                        <li><a href="#" class="fa fa-twitter"></a></li>
-                                        <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="https://twitter.com/mysfacs" class="fa fa-twitter"></a></li>
+                                        <li><a href="https://www.instagram.com/mysfacs" class="fa fa-instagram"></a></li>
                                    </ul>
                               </div>
                          </div>

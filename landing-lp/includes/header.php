@@ -20,4 +20,7 @@ http://www.templatemo.com/tm-509-hydro
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="landing-lp/css/templatemo-style.css">
+
+     <!-- Favicon Icon -->
+     <link rel="icon" href="landing-lp/images/logo.png">
 </head>

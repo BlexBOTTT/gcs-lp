@@ -37,7 +37,7 @@
                     <div class="col-md-6 col-sm-12">
                          <div class="home-video">
                               <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/embed/f_2QOlYn3g8" frameborder="0" allowfullscreen></iframe>
+                                   <iframe src="https://www.youtube.com/embed/1v5pwWF2_Uo" frameborder="0" allowfullscreen></iframe>
                               </div>
                          </div>
                     </div>
@@ -95,7 +95,7 @@
 
                     <div class="col-md-4 col-sm-12">
                          <div class="about-image">
-                              <img src="landing-lp/images/logo.png" class="img-responsive" alt="SFAC logo" style="padding-bottom: 90px;">
+                              <img src="landing-lp/images/logo.png" class="img-responsive" alt="SFAC logo" style="padding-bottom: 90px; ">
                          </div>
                     </div>
                     
@@ -120,12 +120,12 @@
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img1.png" class="img-responsive" alt=""></a>
+                                   <a href="https://www.google.com/search?q=sympathetic&sxsrf=APwXEddNkrNJP91LVrdtvlaxVlYbmKhduA%3A1685871462155&ei=Zlt8ZPeICaTC4-EP3fis4AE&oq=Sympathe&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgwIIxCKBRAnEEYQ-QEyCAgAEIoFEJECMgsIABCKBRCxAxCRAjIICAAQigUQkQIyCAgAEIoFEJECMggIABCABBCxAzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjIICAAQgAQQsQMyBQgAEIAEMiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQigUQQzoLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToECCMQJzoLCC4QgAQQsQMQgwE6DgguEMcBELEDENEDEIAEOgsILhCvARDHARCABDoICAAQgAQQyQM6CAgAEIoFEJIDOgoIABCKBRCxAxBDSgQIQRgAUKMFWLAeYJspaARwAXgAgAGAAYgBmweSAQMzLjaYAQCgAQHAAQHIAQraAQYIARABGBM&sclient=gws-wiz-serp"><img src="landing-lp/images/blog-img1.png" class="img-responsive" alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="blog-detail.html">Sympathetic</a></h3>
+                                   <h3><a href="https://www.google.com/search?q=sympathetic&sxsrf=APwXEddNkrNJP91LVrdtvlaxVlYbmKhduA%3A1685871462155&ei=Zlt8ZPeICaTC4-EP3fis4AE&oq=Sympathe&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgwIIxCKBRAnEEYQ-QEyCAgAEIoFEJECMgsIABCKBRCxAxCRAjIICAAQigUQkQIyCAgAEIoFEJECMggIABCABBCxAzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjIICAAQgAQQsQMyBQgAEIAEMiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQigUQQzoLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToECCMQJzoLCC4QgAQQsQMQgwE6DgguEMcBELEDENEDEIAEOgsILhCvARDHARCABDoICAAQgAQQyQM6CAgAEIoFEJIDOgoIABCKBRCxAxBDSgQIQRgAUKMFWLAeYJspaARwAXgAgAGAAYgBmweSAQMzLjaYAQCgAQHAAQHIAQraAQYIARABGBM&sclient=gws-wiz-serp">Sympathetic</a></h3>
                                    <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read article</a>
+                                   <a href="https://www.google.com/search?q=sympathetic&sxsrf=APwXEddNkrNJP91LVrdtvlaxVlYbmKhduA%3A1685871462155&ei=Zlt8ZPeICaTC4-EP3fis4AE&oq=Sympathe&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgwIIxCKBRAnEEYQ-QEyCAgAEIoFEJECMgsIABCKBRCxAxCRAjIICAAQigUQkQIyCAgAEIoFEJECMggIABCABBCxAzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjIICAAQgAQQsQMyBQgAEIAEMiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQigUQQzoLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToECCMQJzoLCC4QgAQQsQMQgwE6DgguEMcBELEDENEDEIAEOgsILhCvARDHARCABDoICAAQgAQQyQM6CAgAEIoFEJIDOgoIABCKBRCxAxBDSgQIQRgAUKMFWLAeYJspaARwAXgAgAGAAYgBmweSAQMzLjaYAQCgAQHAAQHIAQraAQYIARABGBM&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
                     </div>
@@ -134,28 +134,13 @@
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img2.png" class="img-responsive" alt=""></a>
-                              </div>
-                              <div class="media-body blog-info">
-                                   
-                                   <h3><a href="blog-detail.html">Confidentiality</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read more</a>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6">
-                         <!-- BLOG THUMB -->
-                         <div class="media blog-thumb">
-                              <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img3.png" class="img-responsive" alt=""></a>
+                                   <a href="https://www.google.com/search?q=confidentiality&sxsrf=APwXEdc8F99xEF7HLSy6PnPm2H01fVNofg%3A1685871438041&ei=Tlt8ZMeVAsrg4-EPiaaQ-Aw&oq=confi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMg4ILhCKBRCxAxDUAhCRAjILCAAQigUQsQMQkQIyCggAEIoFELEDEEMyCAguEIAEELEDMgsILhCABBCxAxDUAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQM6BwgjELADECc6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoFCC4QgARKBAhBGABQjA5Y2hJg_hpoA3ABeACAAbIEiAHyEJIBCTAuMS40LTIuMpgBAKABAcABAcgBCg&sclient=gws-wiz-serp"><img src="landing-lp/images/blog-img2.png" class="img-responsive" alt=""></a>
                               </div>
                               <div class="media-body blog-info">
                                    
-                                   <h3><a href="blog-detail.html">Informative</a></h3>
+                                   <h3><a href="https://www.google.com/search?q=confidentiality&sxsrf=APwXEdc8F99xEF7HLSy6PnPm2H01fVNofg%3A1685871438041&ei=Tlt8ZMeVAsrg4-EPiaaQ-Aw&oq=confi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMg4ILhCKBRCxAxDUAhCRAjILCAAQigUQsQMQkQIyCggAEIoFELEDEEMyCAguEIAEELEDMgsILhCABBCxAxDUAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQM6BwgjELADECc6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoFCC4QgARKBAhBGABQjA5Y2hJg_hpoA3ABeACAAbIEiAHyEJIBCTAuMS40LTIuMpgBAKABAcABAcgBCg&sclient=gws-wiz-serp">Confidentiality</a></h3>
                                    <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read article</a>
+                                   <a href="https://www.google.com/search?q=confidentiality&sxsrf=APwXEdc8F99xEF7HLSy6PnPm2H01fVNofg%3A1685871438041&ei=Tlt8ZMeVAsrg4-EPiaaQ-Aw&oq=confi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMg4ILhCKBRCxAxDUAhCRAjILCAAQigUQsQMQkQIyCggAEIoFELEDEEMyCAguEIAEELEDMgsILhCABBCxAxDUAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQM6BwgjELADECc6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoFCC4QgARKBAhBGABQjA5Y2hJg_hpoA3ABeACAAbIEiAHyEJIBCTAuMS40LTIuMpgBAKABAcABAcgBCg&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
                     </div>
@@ -164,13 +149,28 @@
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="landing-lp/images/blog-img4.png" class="img-responsive" alt=""></a>
+                                   <a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp"><img src="landing-lp/images/blog-img3.png" class="img-responsive" alt=""></a>
+                              </div>
+                              <div class="media-body blog-info">
+                                   
+                                   <h3><a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp">Informative</a></h3>
+                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+                                   <a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <!-- BLOG THUMB -->
+                         <div class="media blog-thumb">
+                              <div class="media-object media-left">
+                                   <a href="https://www.google.com/search?q=reassurance&source=hp&ei=nlp8ZOjrLYLv-QbUn4OgBg&iflsig=AOEireoAAAAAZHxorrL9r3XUzg5PZUDik_dbemC7ntGW&oq=reassurance&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhD5ATIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDUP8BWN8TYMsiaABwAHgDgAGgCogB_iaSAQk0LTEuMC4xLjOYAQCgAQE&sclient=gws-wiz"><img src="landing-lp/images/blog-img4.png" class="img-responsive" alt=""></a>
                               </div>
                               <div class="media-body blog-info">
                                   
-                                   <h3><a href="blog-detail.html"></a>Reassurance</h3>
+                                   <h3><a href="https://www.google.com/search?q=reassurance&source=hp&ei=nlp8ZOjrLYLv-QbUn4OgBg&iflsig=AOEireoAAAAAZHxorrL9r3XUzg5PZUDik_dbemC7ntGW&oq=reassurance&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhD5ATIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDUP8BWN8TYMsiaABwAHgDgAGgCogB_iaSAQk0LTEuMC4xLjOYAQCgAQE&sclient=gws-wiz"></a>Reassurance</h3>
                                    <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">View Detail</a>
+                                   <a href="https://www.google.com/search?q=reassurance&source=hp&ei=nlp8ZOjrLYLv-QbUn4OgBg&iflsig=AOEireoAAAAAZHxorrL9r3XUzg5PZUDik_dbemC7ntGW&oq=reassurance&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhD5ATIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDUP8BWN8TYMsiaABwAHgDgAGgCogB_iaSAQk0LTEuMC4xLjOYAQCgAQE&sclient=gws-wiz" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
                     </div>
@@ -183,136 +183,95 @@
      <!-- WORK -->
      <section id="work" data-stellar-background-ratio="0.5">
           <div class="container">
-               <div class="row">
+               <div class="row justify-content-end">
 
                     <div class="col-md-12 col-sm-12">
                          <div class="section-title">
-                              <h2>Our work</h2>
+                              <h2>Other Services</h2>
                               <span class="line-bar">...</span>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image1.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image1.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Clean &amp; Minimal</h3>
-                                        <small>Product Design</small>
-                                   </div>
+                              <a href="https://stfrancislp.com/sfac-lp/pages/login/sign-in.php" >
+                              <img src="landing-lp/images/work-img1.jpg" class="img-responsive" alt="HED Enrollment Logo">
+                              <div class="work-info">
+                                   <h3>HED Enrollment</h3>
+                                   <small>Higher Education Enrollment Site</small>
+                              </div>
                               </a>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image2.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image2.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Studio Bag</h3>
-                                        <small>Branding</small>
-                                   </div>
+                              <a href="https://stfrancislp.com/sfac-lp-ongrade/pages/login/login.php" >
+                              <img src="landing-lp/images/work-img2.jpg" class="img-responsive" alt="HED Online Grade Logo">
+                              <div class="work-info">
+                                   <h3>HED Online Grade</h3>
+                                   <small>Higher Education Online Grade Viewing Site</small>
+                              </div>
                               </a>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image3.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image3.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Frame Design</h3>
-                                        <small>Photography</small>
-                                   </div>
+                              <a href="https://stfrancislp.com/library-lp/index/memorial/index.html" >
+                              <img src="landing-lp/images/work-img3.jpg" class="img-responsive" alt="HED Library Logo">
+                              <div class="work-info">
+                                   <h3>HED Library</h3>
+                                   <small>Higher Education Online Library Viewing Site</small>
+                              </div>
                               </a>
                          </div>
                     </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="landing-lp/images/work-image4.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image4.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Paint Work</h3>
-                                        <small>Art, Design</small>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
                </div>
-          </div>
 
-          <div class="container">
-               <div class="row">
+               <br>
 
-                   <br>
+               <div class="row justify-content-md-between">
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image1.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image1.jpg" class="img-responsive" alt="Work">
-
+                              <a href="https://stfrancislp.com/bedlp-enroll/html/pages/bed-login/login.php" >
+                                   <img src="landing-lp/images/work-img4.jpg" class="img-responsive" alt="BSED Enrollment Logo">
                                    <div class="work-info">
-                                        <h3>Clean &amp; Minimal</h3>
-                                        <small>Product Design</small>
+                                        <h3>BSED Enrollment</h3>
+                                        <small>Basic Education Enrollment Site</small>
                                    </div>
                               </a>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image2.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image2.jpg" class="img-responsive" alt="Work">
-
+                              <a href="https://stfrancislp.com/gsbe/html/index.php" >
+                                   <img src="landing-lp/images/work-img5.jpg" class="img-responsive" alt="GSBE Library">
                                    <div class="work-info">
-                                        <h3>Studio Bag</h3>
-                                        <small>Branding</small>
+                                        <h3>GSBE Library</h3>
+                                        <small>Graduate School of Business and Education Enrollment Site</small>
                                    </div>
                               </a>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
+                    <div class="col-md-4 col-sm-6">
                          <div class="work-thumb">
-                              <a href="landing-lp/images/work-image3.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image3.jpg" class="img-responsive" alt="Work">
-
+                              <a href="https://stfrancislp.com/landing-lp/index.html" >
+                                   <img src="landing-lp/images/work-img6.jpg" class="img-responsive" alt="SFAC-Home Loogo">
                                    <div class="work-info">
-                                        <h3>Frame Design</h3>
-                                        <small>Photography</small>
+                                        <h3>Return to Las Piñas Main Page</h3>
+                                        <small>Head back to the Las Piñas Site</small>
                                    </div>
                               </a>
                          </div>
                     </div>
 
-                    <div class="col-md-3 col-sm-6">
-                         <!-- WORK THUMB -->
-                         <div class="work-thumb">
-                              <a href="landing-lp/images/work-image4.jpg" class="image-popup">
-                                   <img src="landing-lp/images/work-image4.jpg" class="img-responsive" alt="Work">
-
-                                   <div class="work-info">
-                                        <h3>Paint Work</h3>
-                                        <small>Art, Design</small>
-                                   </div>
-                              </a>
-                         </div>
-                    </div>
-
+                    
                </div>
+
           </div>
      </section>
 
@@ -332,7 +291,7 @@
                
                               <div class="col-md-12 col-sm-12">                            
                                    <h2 style="color:white; text-align:left;">Location</h2>
-                                        <p style="color:white; text-align:left;">Saint Francis of Assisi College - Las Piñas Campus 45 Admiral, Las Piñas, 1740 Metro Manila, Philippines</p>
+                                        <p style="color:white; text-align:left;">45 Admiral, Las Piñas, 1740 Metro Manila, Philippines</p>
                                    <h2 style="color:white; text-align:left;">Call</h2>
                                         <p style="color:white; text-align:left;">8800-31-31 <br> 09339468066</p>
                                    <h2 style="color:white; text-align:left;">Email</h2>
