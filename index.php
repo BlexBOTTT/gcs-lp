@@ -26,7 +26,7 @@
                          <div class="home-info">
                                 <img src="landing-lp/images/logo.png" alt="SFAC logo" width="100px" height="100px">
                               <h1>GCS - Guidance Counseling System</h1>
-                              <a href="#about" class="btn section-btn smoothScroll">Log-in to GCS</a>
+                              <a href="sbadmin2/pages/login/login.php" class="btn section-btn smoothScroll">Log-in to GCS</a>
                               <!-- <span>
                                    CALL US (+66) 010-020-0340
                                    <small>For any inquiry</small>

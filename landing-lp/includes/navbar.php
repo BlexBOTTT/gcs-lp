@@ -28,7 +28,7 @@
                          <li><a href="https://www.facebook.com/mysfaclp"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="https://twitter.com/mysfacs"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="https://www.instagram.com/mysfacs"><i class="fa fa-instagram"></i></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Log-in</a></li>
+                         <li class="section-btn"><a href="sbadmin2/pages/login/login.php">Log-in</a></li>
                     </ul>
                </div>
 
