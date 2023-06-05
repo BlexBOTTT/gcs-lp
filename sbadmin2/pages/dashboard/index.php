@@ -30,9 +30,11 @@
                             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                     class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                         </div>
-                    
+                                              
                     <!-- Content Row -->
                     <div class="row">
+
+                        
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
@@ -121,14 +123,13 @@
                     <!-- Content Row -->
 
                     <!-- $_SESSION['role'] == "Super Admin" || $_SESSION['role'] == "Administrator" || $_SESSION['role'] == "Student" -->
-                    <?php if ( $_SESSION['role'] == "Super Admin" || $_SESSION['role'] == "Administrator") {
-                                             
+                    <?php if ($_SESSION['role'] == "Super Admin") {
+                            include 'general.php';         
+
+                        } elseif ($_SESSION['role'] == "Administrator") {
 
                         } elseif ($_SESSION['role'] == "Student") {
-                            include 'general.php';
-
-                        } else {
-                            header('../../../404.html');
+                            
                         }
                         ?>
 

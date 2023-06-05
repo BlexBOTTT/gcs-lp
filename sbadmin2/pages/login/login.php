@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GCS-LP - Login</title>
+    <title>GCS-LP - Login Page</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -64,10 +64,15 @@
                                             <button type="submit" name="submit" class="btn btn-secondary btn-danger btn-block"> Log in </button>
                                         </div>
                                     </form>
+
                                     <div class="text-center">
                                         <a class="small" href="forgot-password.html">Forgot Password?</a>
+                                        <br>
+                                        <br>
+                                        <a class="small" href="../../../index.php">Return to SFAC GCS-LP Landing Page</a>
                                     </div>
-                                </div>
+                                                       
+                                </div>                               
                             </div>
                         </div>
                     </div>
