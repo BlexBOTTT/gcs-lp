@@ -9,6 +9,7 @@
                     <!-- Content Row -->
 
                     <div class="row">
+                        
 
                         <!-- Area Chart -->
                         <div class="col-xl-8 col-lg-7">
@@ -231,6 +232,22 @@
                                         custom components and custom utility classes.</p>
                                     <p class="mb-0">Before working with this theme, you should become familiar with the
                                         Bootstrap framework, especially the utility classes.</p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">About DataTables</h6>
+                                </div>
+                                <div class="card-body">
+                                    <p>
+                                        DataTables is a third party plugin that is used to generate the table below.
+                                        For more information about DataTables, please visit the 
+                                        <a target="_blank"href="https://datatables.net">
+                                        official DataTables documentation</a>.
+                                    </p>
+                                    
                                 </div>
                             </div>
 

@@ -26,13 +26,42 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Student List</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Student List</h1>
+                    </div>
+            
+                    <?php
+                        if (!empty($_SESSION['errors'])) {
+                            echo '<div class="alert alert-danger fade show" role="alert">
+                                        <div class="d-flex justify-content-between align-items-center">';
+                                            echo '<div>';
+                                                foreach ($_SESSION['errors'] as $error) {
+                                                    echo '<div class="mb-2">' . $error . '</div>';
+                                                }
+                                            echo '</div>';
+                                            echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
+                                            </div>';
+                            unset($_SESSION['errors']);
+                        } elseif (!empty($_SESSION['success-del'])) {
+                            echo ' <div class="alert alert-success fade show" role="alert">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <span class="alert-text"><strong>Successfully Deleted!</strong></span>
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                    </div>';
+                            unset($_SESSION['success-del']);
+                        }
+                    ?>
+                    
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
+                        
                         <div class="card-header py-3">
                             <h6 class="m-0 font-weight-bold text-primary">Student List</h6>
                         </div>
@@ -120,8 +149,33 @@
                                                 <i class="fa fa-edit"></i> Update
                                                 </a>
                                                 <br>
-                                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#delete<?php echo $row['stud_id'] ?>">
-                                                <i class="fa fa-trash"></i> Delete</button>
+                                                <!-- Button trigger modal -->
+                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal<?php echo $id; ?>">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </button>
+
+                                                <!-- Delete Modal Window -->
+                                                <div class="modal fade" id="deleteModal<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <p>Are you sure you want to delete
+                                                                    <strong class="font-weight-bold"><?php echo $row['fullname'] ?></strong>?
+                                                                </p>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                                                <a class="btn btn-secondary" href="userData/user.del.students.php?stud_id=<?php echo $id; ?>">Delete</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> 
                                             </td>
                                         </tr>
                                         <?php }
@@ -172,8 +226,8 @@
                 </div>
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <button class="btn btn-danger" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-secondary" href="../login/userData/user.logout.php">Logout</a>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>GCS - LP</title>
+    <title>SFAC - LP | Guidance Counseling System</title>
 
     <!-- Custom fonts for this template -->
     <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -21,6 +21,7 @@
 
 
     <!-- Favicon Icon -->
-     <link rel="icon" href="../../img/SFAC-logo.png">
+    <link rel="icon" href="../../img/SFAC-logo1.png">
+     
 
 </head>

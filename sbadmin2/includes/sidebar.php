@@ -2,8 +2,8 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../dashboard/index.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                <div class="sidebar-brand-icon">
+                    <img src="../../img/SFAC-logo.png" alt="SFAC logo" width="50px" height="50px">
                 </div>
                 <div class="sidebar-brand-text mx-3">GCS - LP</div>
             </a>
@@ -39,7 +39,7 @@
                                       <div class="bg-white py-2 collapse-inner rounded">
                                           <h6 class="collapse-header">User Roles Below:</h6>
                                           <a class="collapse-item" href="../super_admin/add.admin.php">Add Admin</a>
-                                          <a class="collapse-item" href="cards.html">Add Students</a>
+                                          <a class="collapse-item" href="../students/add.students.php">Add Students</a>
                                       </div>
                                   </div>
                               </li>
@@ -49,7 +49,7 @@
                   
                               <!-- Heading -->
                               <div class="sidebar-heading">
-                                  User Lists
+                                  Existing User Lists
                               </div>
                   
                               <!-- Nav Item - Pages Collapse Menu -->
@@ -87,10 +87,10 @@
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                     <div class="bg-white py-2 collapse-inner rounded">
                                         <h6 class="collapse-header">Available Functions:</h6>
-                                        <a class="collapse-item" href="#">Add Students</a>
+                                        <a class="collapse-item" href="../students/add.students.php">Add Students</a>
                                         <a class="collapse-item" href="#">Student Evaluation</a>
                                         <a class="collapse-item" href="#">Significant Notes</a>
-                                        <a class="collapse-item" href="#">Student List</a>
+                                        <a class="collapse-item" href="../students/list.students.php">Student List</a>
                                     </div>
                                 </div>
                             </li>
@@ -113,7 +113,7 @@
                                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                                     <div class="bg-white py-2 collapse-inner rounded">
                                     <h6 class="collapse-header">Available Forms Below:</h6>                                       
-                                        <a class="collapse-item" href="#">Blank Forms</a>
+                                        <a class="collapse-item" href="../forms/guidance.php">Blank Forms</a>
                                         
                                         <div class="collapse-divider"></div>
                                         
@@ -137,8 +137,8 @@
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                                     <div class="bg-white py-2 collapse-inner rounded">
                                         <h6 class="collapse-header">Available Functions:</h6>
-                                        <a class="collapse-item" href="#">Add Students</a>
-                                        <a class="collapse-item" href="#">Student List</a>
+                                        <a class="collapse-item" href="../students/add.students.php">Add Students</a>
+                                        <a class="collapse-item" href="../students/list.students.php">Student List</a>
                                     </div>
                                 </div>
                             </li>
@@ -161,7 +161,7 @@
                                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                                     <div class="bg-white py-2 collapse-inner rounded">
                                     <h6 class="collapse-header">Available Forms Below:</h6>                                       
-                                        <a class="collapse-item" href="#">Blank Forms</a>
+                                        <a class="collapse-item" href="../forms/guidance.php">Blank Forms</a>
                                         
                                         <div class="collapse-divider"></div>
                                         

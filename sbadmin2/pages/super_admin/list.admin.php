@@ -37,51 +37,96 @@
                     
                     <!-- Content Row -->
                     <div class="row">
-                    <div class="card-body  pb-2">
-                                    <div class="table-responsive p-0 mx-3">
-                                        <table class="table align-items-center mb-0">
-                                            <thead>
-                                                <tr class="light">
-                                                    <th>Image</th>
-                                                    <th>Fullname</th>
-                                                    <th>Email</th>
-                                                    <th>Username</th>
-                                                    <th>Actions</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <?php
-                                                $get_user = mysqli_query($conn, "SELECT *, CONCAT(tbl_admins.lastname, ', ', tbl_admins.firstname) AS fullname FROM tbl_admins");
-                                                while ($row = mysqli_fetch_array($get_user)) {
-                                                    $id = $row['admin_id'];
-                                                ?>
-                                                    <tr>
-                                                        <td><img class="img-fluid mr-4" src="data:image/jpeg;base64, <?php echo base64_encode($row['admin_image']); ?>" alt="image" style="height: 100px; width: 100px"></td>
-                                                        <td><?php echo $row['fullname'] ?></td>
-                                                        <td><?php echo $row['email'] ?></td>
-                                                        <td><?php echo $row['username'] ?></td>
-                                                        <td>
-                                                            <a href="edit.admin.php<?php echo '?admin_id=' . $id; ?>" type="button" class="btn btn-info mx-1">
-                                                                <i class="fa fa-edit"></i> Update
-                                                            </a>
+                        <div class="card-body pb-2">
+                            <?php
+                                if (!empty($_SESSION['errors'])) {
+                                    echo '<div class="alert alert-danger fade show" role="alert">
+                                                <div class="d-flex justify-content-between align-items-center">';
+                                                    echo '<div>';
+                                                        foreach ($_SESSION['errors'] as $error) {
+                                                            echo '<div class="mb-2">' . $error . '</div>';
+                                                        }
+                                                    echo '</div>';
+                                                    echo '<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                        </div>
+                                                    </div>';
+                                    unset($_SESSION['errors']);
+                                } elseif (!empty($_SESSION['success-del'])) {
+                                    echo ' <div class="alert alert-success fade show" role="alert">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <span class="alert-text"><strong>Successfully Added!</strong></span>
+                                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                    </div>
+                                            </div>';
+                                    unset($_SESSION['success-del']);
+                                }
+                            ?>
 
-                                                            <a class="btn btn-danger" href="userData/user.del.admin.php?admin_id=<?php echo $id; ?>">
-                                                            <i class="fa fa-trash"></i> Delete
-                                                            </a>
+                            <div class="table-responsive p-0 mx-3">
+                                <table class="table align-items-center mb-0">
+                                    <thead>
+                                        <tr class="light">
+                                            <th>Image</th>
+                                            <th>Fullname</th>
+                                            <th>Email</th>
+                                            <th>Username</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php
+                                        $get_user = mysqli_query($conn, "SELECT *, CONCAT(tbl_admins.lastname, ', ', tbl_admins.firstname) AS fullname FROM tbl_admins");
+                                        while ($row = mysqli_fetch_array($get_user)) {
+                                            $id = $row['admin_id'];
+                                        ?>
+                                            <tr>
+                                                <td><img class="img-fluid mr-4" src="data:image/jpeg;base64, <?php echo base64_encode($row['admin_image']); ?>" alt="image" style="height: 100px; width: 100px"></td>
+                                                <td><?php echo $row['fullname'] ?></td>
+                                                <td><?php echo $row['email'] ?></td>
+                                                <td><?php echo $row['username'] ?></td>
+                                                <td>
+                                                    <a href="edit.admin.php<?php echo '?admin_id=' . $id; ?>" type="button" class="btn btn-info mx-1">
+                                                        <i class="fa fa-edit"></i> Update
+                                                    </a>
 
-                                                        </td>
-                                                    </tr>
+                                                    <!-- Button trigger modal -->
+                                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteModal<?php echo $id; ?>">
+                                                        <i class="fa fa-trash"></i> Delete
+                                                    </button>
 
-                                                    
-                                                    
-                                                <?php } ?>
-                                            </tbody>
-                                        </table>
-                                                           
-
-                                    </div>
-                                </div>
-                        
+                                                    <!-- Delete Modal Window -->
+                                                    <div class="modal fade" id="deleteModal<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog" role="document">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h5 class="modal-title" id="exampleModalLabel">Delete</h5>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                    </button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <p>Are you sure you want to delete
+                                                                        <strong class="font-weight-bold"><?php echo $row['fullname'] ?></strong>?
+                                                                    </p>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                                                    <a class="btn btn-secondary" href="userData/user.del.admin.php?admin_id=<?php echo $id; ?>">Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>                                                          
+                                                </td>
+                                            </tr>  
+                                        <?php } ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>                                             
                     </div>
 
                     <!-- Content Row -->
