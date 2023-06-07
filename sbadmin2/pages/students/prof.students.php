@@ -1083,204 +1083,383 @@
                                         <div>
                                             <br>
                                             <h2 class="text-center"><b>Health</b></h2>
-                                            <div class="row mx-auto">
-                                                <div class="col">
-                                                    <h5 class="">A. Physical</h5>
-                                                    <h6>Do you have problems with your physical body?</h6>
-                                                </div>
-                                            </div>     
-                                            <div class="row mx-auto justify-content-center">                                          
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-3">Your vision</span>
+                                            <!-- A. Physical -->
+                                            <div>
+                                                <div class="row mx-auto">
+                                                    <div class="col">
+                                                        <h5 class="">A. Physical</h5>
+                                                        <h6>Do you have problems with your physical body?</h6>
+                                                    </div>
+                                                </div>     
+                                                <div class="row mx-auto justify-content-center">                                          
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">Your vision</span>
 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="vision" name="vision"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+                                                            <input type="text" name="vision_spec" class="form-control" autocomplete="off"
+                                                                required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="vision" name="vision"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-1">Your hearing</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="hearing" name="hearing"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+                                                            <input type="text" name="hearing_spec" class="form-control" autocomplete="off"
+                                                                required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
-                                                    <div class="mt-3">
-                                                        <input type="text" name="vision_spec" class="form-control" autocomplete="off"
-                                                            required placeholder="If yes, please specify:">
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-1">Your speech</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="speech" name="speech"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+                                                            <input type="text" name="speech_spec" class="form-control" autocomplete="off"
+                                                                required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-1">Your hearing</span>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-1">Your general health</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="hearing" name="hearing"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="gen_health" name="gen_health"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="mt-3">
-                                                        <input type="text" name="hearing_spec" class="form-control" autocomplete="off"
-                                                            required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-1">Your speech</span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="speech" name="speech"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="mt-3">
-                                                        <input type="text" name="speech_spec" class="form-control" autocomplete="off"
-                                                            required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-1">Your general health</span>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="gen_health" name="gen_health"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3">
-                                                    <div class="mt-3">
-                                                        <input type="text" name="gen_health_spec" class="form-control"
-                                                            autocomplete="off" required placeholder="If yes, please specify:">
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+                                                            <input type="text" name="gen_health_spec" class="form-control"
+                                                                autocomplete="off" required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="row mx-auto">
-                                                <div class="col">
-                                                    <h5 class="">B. Socio-psychological</h5>
-                                                </div>
-                                            </div>  
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-5">Psychiatrist</span>
+                                            <!-- B. Socio-psychological -->                
+                                            <div>
+                                                <div class="row mx-auto">
+                                                    <div class="col">
+                                                        <h5 class="">B. Socio-psychological</h5>
+                                                    </div>
+                                                </div>  
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="m-3">Yes / No</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="m-3">When</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="m-3">For what</span>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <label class="mb-3">Yes / No</label>
-                                                        <select class="form-control" id="psychiatrist" name="psychiatrist"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">Psychiatrist</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            
+                                                            <select class="form-control" id="psychiatrist" name="psychiatrist"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            
+                                                            <input type="text" name="psychiatrist_when" class="form-control"
+                                                                autocomplete="off" required placeholder="If yes, please specify:">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            
+                                                            <input type="text" name="psychiatrist_what" class="form-control"
+                                                                autocomplete="off" required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <label class="mb-3">When</label>
-                                                        <input type="text" name="psychiatrist_when" class="form-control"
-                                                            autocomplete="off" required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <label class="mb-3">For what</label>
-                                                        <input type="text" name="psychiatrist_what" class="form-control"
-                                                            autocomplete="off" required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-3">Psychologist</span>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">Psychologist</span>
 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="psychologist" name="psychologist"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <input type="text" name="psychologist_when" class="form-control"
+                                                                autocomplete="off" required placeholder="If yes, please specify:">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <input type="text" name="psychologist_what" class="form-control"
+                                                                autocomplete="off" required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="psychologist" name="psychologist"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <input type="text" name="psychologist_when" class="form-control"
-                                                            autocomplete="off" required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <input type="text" name="psychologist_what" class="form-control"
-                                                            autocomplete="off" required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row mx-auto justify-content-center">
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <span class="mt-3">Counselor</span>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">Counselor</span>
 
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="counselor" name="counselor"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Yes">Yes</option>
+                                                                <option value="No">No</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <input type="text" name="counselor_when" class="form-control" autocomplete="off"
+                                                                required placeholder="If yes, please specify:">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <input type="text" name="counselor_what" class="form-control" autocomplete="off"
+                                                                required placeholder="If yes, please specify:">
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <select class="form-control" id="counselor" name="counselor"
-                                                            placeholder="Select your answer">
-                                                            <option selected disabled>Select your Answer</option>
-                                                            <option value="Yes">Yes</option>
-                                                            <option value="No">No</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <input type="text" name="counselor_when" class="form-control" autocomplete="off"
-                                                            required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-2">
-                                                    <div class="my-3">
-                                                        <input type="text" name="counselor_what" class="form-control" autocomplete="off"
-                                                            required placeholder="If yes, please specify:">
-                                                    </div>
-                                                </div>
+
+                                        
                                             </div>
                                         </div>
+
+                                        <!-- Interest and Hobbies -->
+                                        <div>
+                                            <br>
+                                            <h2 class="text-center my-3"><b>Interest and Hobbies</b></h2>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">1. Favorite Academic Subjects</span>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="acad_sub" name="acad_sub"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <?php
+                                                                $query = mysqli_query($conn, "SELECT * FROM tbl_acad_subjects");
+                                                                while ($row1 = mysqli_fetch_array($query)) {
+                                                                    echo '
+                                                                    <option value="' . $row1['acad_sub_name'] . '">' . $row1['acad_sub_name'] . '</option>';
+                                                                }
+                                                                ?>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="my-3">
+                                                            <span class="mt-3">2. Extra - Curricular and Organizations</span>
+
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="my-3">
+                                                            <select class="form-control" id="curri_org" name="curri_org"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <?php
+                                                                $query = mysqli_query($conn, "SELECT * FROM tbl_curri_org");
+                                                                while ($row1 = mysqli_fetch_array($query)) {
+                                                                    echo '
+                                                                    <option value="' . $row1['curri_org_name'] . '">' . $row1['curri_org_name'] . '</option>';
+                                                                }
+                                                                ?>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="mt-3">
+                                                            <input type="text" name="vision_spec" class="form-control" autocomplete="off"
+                                                                required placeholder="If others, please specify:">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mx-auto justify-content-center">
+                                                    <div class="col-md-2">
+                                                        <div class="input-group input-group-static my-3">
+                                                            <span class="mt-3">3. Position in Organization</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="input-group input-group-static my-3">
+                                                            <select class="form-control" id="pos_org" name="pos_org"
+                                                                placeholder="Select your answer">
+                                                                <option selected disabled>Select your Answer</option>
+                                                                <option value="Officer">Officer</option>
+                                                                <option value="Member">Member</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <div class="input-group input-group-static mt-3">
+                                                        </div>
+                                                    </div>
+                                                </div>                    
+                                        </div>
+
+                                        <!-- Testing and Student Evaluation -->
+                                        <div>
+                                            <h2 class="text-center my-3"><b>Testing and Student Evaluation</b></h2>
+                                            <h5 class="text-center my-3">(to be filled up by a psychometrician)</h5>
+                                            <div class="table-responsive p-0 mx-3">
+                                                <table class="table align-items-center mb-0">
+                                                    <thead>
+                                                        <tr class="light">
+                                                            <th>Date of Assessment</th>
+                                                            <th>Nature of Exam</th>
+                                                            <th>Name of Test</th>
+                                                            <th>Key Result</th>
+                                                            <th>Description</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php $get_eval = mysqli_query($conn, "SELECT * FROM tbl_evaluation WHERE stud_id = '$_GET[stud_id]' ");
+                                                        while ($row = mysqli_fetch_array($get_eval)) {
+                                                            $id = $row['stud_id'];
+                                                        ?>
+                                                        <tr>
+
+                                                            <td><?php echo $row['date'] ?></td>
+                                                            <td><?php echo $row['exam'] ?></td>
+                                                            <td><?php echo $row['test'] ?></td>
+                                                            <td><?php echo $row['result'] ?></td>
+                                                            <td><?php echo $row['description'] ?></td>
+
+                                                        </tr>
+                                                        <?php  } ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <!-- Significant Notes -->
+                                        <div>
+                                        <h2 class="text-center my-3"><b>Significant Notes</b></h2>
+                                            <h5 class="text-center my-3">(to be filled up by the school counselor)</h5>
+                                            <div class="table-responsive p-0 mx-3">
+                                                <table class="table align-items-center mb-0">
+                                                    <thead>
+                                                        <tr class="light">
+                                                            <th>Date</th>
+                                                            <th>Incident</th>
+                                                            <th>Remarks</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php $get_notes = mysqli_query($conn, "SELECT * FROM tbl_notes WHERE stud_id = '$_GET[stud_id]' ");
+                                                        while ($row = mysqli_fetch_array($get_notes)) {
+                                                            $id = $row['stud_id'];
+                                                        ?>
+                                                        <tr>
+                                                            <td><?php echo $row['date'] ?></td>
+                                                            <td><?php echo $row['incident'] ?></td>
+                                                            <td><?php echo $row['remarks'] ?></td>
+                                                        </tr>
+                                                        <?php  } ?>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                           
                                     <!-- End Inputs -->
 
                                         <div class="row mx-auto">
