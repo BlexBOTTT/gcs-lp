@@ -50,58 +50,59 @@
      <!-- ABOUT -->
      <section id="about" data-stellar-background-ratio="1.0">
           <div class="container">
-               <div class="row">
+          <div class="row">
 
-                    <div class="col-md-5 col-sm-6">
-                         <div class="about-info">
-                              <div class="section-title">
-                                   <h2>About GCS:</h2>
-                                   <span class="line-bar">...</span>
-                              </div>
-                              <p>The Guidance Counseling System is the portal where the students can see their comprehensive support, or in assistance in the aspects of personal, educational, and career matters.</p>
-                              <p>This empowers them to overcome their own challenges and make informed decisions.</p>
-                         </div>
+               <div class="col-md-5 col-sm-6">
+               <div class="about-info">
+                    <div class="section-title">
+                    <h2>About GCS:</h2>
+                    <span class="line-bar">...</span>
                     </div>
-
-                    <div class="col-md-3 col-sm-6">
-                         <div class="about-info skill-thumb">
-
-                              <strong>Sympathy</strong>
-                                   <span class="pull-right">85%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                                        </div>
-
-                              <strong>Confidential</strong>
-                                   <span class="pull-right">100%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
-                                        </div>
-
-                              <strong>Information</strong>
-                                   <span class="pull-right">85%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-                                        </div>
-
-                              <strong>Assurance</strong>
-                                   <span class="pull-right">80%</span>
-                                        <div class="progress">
-                                             <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-                                        </div>
-
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-12">
-                         <div class="about-image">
-                              <img src="landing-lp/images/logo.png" class="img-responsive" alt="SFAC logo" style="padding-bottom: 90px; ">
-                         </div>
-                    </div>
-                    
+                    <p>The Guidance Counseling System is the portal where the students can see their comprehensive support, or in assistance in the aspects of personal, educational, and career matters.</p>
+                    <p>This empowers them to overcome their own challenges and make informed decisions.</p>
                </div>
+               </div>
+
+               <div class="col-md-3 col-sm-6">
+               <div class="about-info skill-thumb">
+
+                    <strong>Sympathy</strong>
+                    <span class="pull-right">85%</span>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                    </div>
+
+                    <strong>Confidential</strong>
+                    <span class="pull-right">100%</span>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+                    </div>
+
+                    <strong>Information</strong>
+                    <span class="pull-right">85%</span>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                    </div>
+
+                    <strong>Assurance</strong>
+                    <span class="pull-right">80%</span>
+                    <div class="progress">
+                    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                    </div>
+
+               </div>
+               </div>
+
+               <div class="col-md-4 col-sm-12">
+                    <div class="about-image">
+                         <img src="landing-lp/images/logo.png" class="img-responsive" alt="SFAC logo" style="padding-bottom: 90px; ">
+                    </div>
+               </div>
+
           </div>
-     </section>
+          </div>
+</section>
+
 
 
      <!-- BLOG -->
@@ -124,7 +125,7 @@
                               </div>
                               <div class="media-body blog-info">
                                    <h3><a href="https://www.google.com/search?q=sympathetic&sxsrf=APwXEddNkrNJP91LVrdtvlaxVlYbmKhduA%3A1685871462155&ei=Zlt8ZPeICaTC4-EP3fis4AE&oq=Sympathe&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgwIIxCKBRAnEEYQ-QEyCAgAEIoFEJECMgsIABCKBRCxAxCRAjIICAAQigUQkQIyCAgAEIoFEJECMggIABCABBCxAzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjIICAAQgAQQsQMyBQgAEIAEMiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQigUQQzoLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToECCMQJzoLCC4QgAQQsQMQgwE6DgguEMcBELEDENEDEIAEOgsILhCvARDHARCABDoICAAQgAQQyQM6CAgAEIoFEJIDOgoIABCKBRCxAxBDSgQIQRgAUKMFWLAeYJspaARwAXgAgAGAAYgBmweSAQMzLjaYAQCgAQHAAQHIAQraAQYIARABGBM&sclient=gws-wiz-serp">Sympathetic</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+
                                    <a href="https://www.google.com/search?q=sympathetic&sxsrf=APwXEddNkrNJP91LVrdtvlaxVlYbmKhduA%3A1685871462155&ei=Zlt8ZPeICaTC4-EP3fis4AE&oq=Sympathe&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgwIIxCKBRAnEEYQ-QEyCAgAEIoFEJECMgsIABCKBRCxAxCRAjIICAAQigUQkQIyCAgAEIoFEJECMggIABCABBCxAzIKCAAQgAQQFBCHAjIKCAAQgAQQFBCHAjIICAAQgAQQsQMyBQgAEIAEMiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCCMQigUQJzoHCAAQigUQQzoLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOiAIABCKBRBGEPkBEJcFEIwFEN0EEEYQ9AMQ9QMQ9gMYAToECCMQJzoLCC4QgAQQsQMQgwE6DgguEMcBELEDENEDEIAEOgsILhCvARDHARCABDoICAAQgAQQyQM6CAgAEIoFEJIDOgoIABCKBRCxAxBDSgQIQRgAUKMFWLAeYJspaARwAXgAgAGAAYgBmweSAQMzLjaYAQCgAQHAAQHIAQraAQYIARABGBM&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
@@ -139,7 +140,7 @@
                               <div class="media-body blog-info">
                                    
                                    <h3><a href="https://www.google.com/search?q=confidentiality&sxsrf=APwXEdc8F99xEF7HLSy6PnPm2H01fVNofg%3A1685871438041&ei=Tlt8ZMeVAsrg4-EPiaaQ-Aw&oq=confi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMg4ILhCKBRCxAxDUAhCRAjILCAAQigUQsQMQkQIyCggAEIoFELEDEEMyCAguEIAEELEDMgsILhCABBCxAxDUAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQM6BwgjELADECc6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoFCC4QgARKBAhBGABQjA5Y2hJg_hpoA3ABeACAAbIEiAHyEJIBCTAuMS40LTIuMpgBAKABAcABAcgBCg&sclient=gws-wiz-serp">Confidentiality</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+
                                    <a href="https://www.google.com/search?q=confidentiality&sxsrf=APwXEdc8F99xEF7HLSy6PnPm2H01fVNofg%3A1685871438041&ei=Tlt8ZMeVAsrg4-EPiaaQ-Aw&oq=confi&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgcIIxCKBRAnMg4ILhCKBRCxAxDUAhCRAjILCAAQigUQsQMQkQIyCggAEIoFELEDEEMyCAguEIAEELEDMgsILhCABBCxAxDUAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQM6BwgjELADECc6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6BwgAEIoFEEM6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoFCC4QgARKBAhBGABQjA5Y2hJg_hpoA3ABeACAAbIEiAHyEJIBCTAuMS40LTIuMpgBAKABAcABAcgBCg&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
@@ -152,9 +153,9 @@
                                    <a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp"><img src="landing-lp/images/blog-img3.png" class="img-responsive" alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   
+                                  
                                    <h3><a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp">Informative</a></h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+
                                    <a href="https://www.google.com/search?q=informative&sxsrf=APwXEddBpYTyhOOPeUCIoWek2rX2HfEzUg%3A1685871288815&ei=uFp8ZKq0Mdv14-EP8emu-A8&ved=0ahUKEwiq8Ln6p6n_AhXb-jgGHfG0C_8Q4dUDCA4&uact=5&oq=informative&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQigUQJzIHCCMQigUQJzIHCCMQigUQJzIKCAAQigUQsQMQQzIICAAQigUQkQIyCAgAEIoFEJECMggIABCKBRCRAjIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoNCAAQ5AIQ1gQQsAMYAToVCC4QigUQxwEQ0QMQyAMQsAMQQxgCOg8ILhCKBRDIAxCwAxBDGAI6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToNCAAQigUQsQMQgwEQQzoHCAAQigUQQzoRCC4QigUQsQMQgwEQxwEQrwE6CwguEIAEELEDEIMBOg0IABCABBAUEIcCELEDSgQIQRgAUO4HWMsQYO4QaAJwAXgBgAHOAogB-wySAQcxLjUuMi4xmAEAoAEBwAEByAEQ2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz-serp" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>
@@ -169,7 +170,7 @@
                               <div class="media-body blog-info">
                                   
                                    <h3><a href="https://www.google.com/search?q=reassurance&source=hp&ei=nlp8ZOjrLYLv-QbUn4OgBg&iflsig=AOEireoAAAAAZHxorrL9r3XUzg5PZUDik_dbemC7ntGW&oq=reassurance&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhD5ATIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDUP8BWN8TYMsiaABwAHgDgAGgCogB_iaSAQk0LTEuMC4xLjOYAQCgAQE&sclient=gws-wiz"></a>Reassurance</h3>
-                                   <p>Lorem ipsum dolor sit consectetur adipiscing morbi venenatis.</p>
+
                                    <a href="https://www.google.com/search?q=reassurance&source=hp&ei=nlp8ZOjrLYLv-QbUn4OgBg&iflsig=AOEireoAAAAAZHxorrL9r3XUzg5PZUDik_dbemC7ntGW&oq=reassurance&gs_lcp=Cgdnd3Mtd2l6EAEYADIQCAAQgAQQsQMQgwEQRhD5ATIICAAQgAQQsQMyBQgAEIAEMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDUP8BWN8TYMsiaABwAHgDgAGgCogB_iaSAQk0LTEuMC4xLjOYAQCgAQE&sclient=gws-wiz" class="btn section-btn">Read Definition</a>
                               </div>
                          </div>

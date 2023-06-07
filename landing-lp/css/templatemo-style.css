@@ -966,7 +966,11 @@ http://www.templatemo.com/tm-509-hydro
     }
 
     .about-image {
-      width: 150px; height: 150px;
+      width: 150px;
+      height: 150px;
+      text-align: center; /* Add this line */
+      margin: 0 auto; /* Add this line to center the div itself */
+      padding-bottom: 220px;
     }
   }
 
