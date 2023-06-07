@@ -89,7 +89,7 @@
                                         <h6 class="collapse-header">Available Functions:</h6>
                                         <a class="collapse-item" href="../students/add.students.php">Add Students</a>
                                         <a class="collapse-item" href="#">Student Evaluation</a>
-                                        <a class="collapse-item" href="#">Significant Notes</a>
+                                        <a class="collapse-item" href="../notes/view.notes.php">Significant Notes</a>
                                         <a class="collapse-item" href="../students/list.students.php">Student List</a>
                                     </div>
                                 </div>
