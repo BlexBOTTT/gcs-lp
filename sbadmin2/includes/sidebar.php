@@ -3,7 +3,7 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="../dashboard/index.php">
                 <div class="sidebar-brand-icon">
-                    <img src="../../img/SFAC-logo.png" alt="SFAC logo" width="50px" height="50px">
+                    <img src="../../img/SFAC-logo1.png" alt="SFAC logo" width="50px" height="50px">
                 </div>
                 <div class="sidebar-brand-text mx-3">GCS - LP</div>
             </a>
