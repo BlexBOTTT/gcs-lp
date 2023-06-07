@@ -1,5 +1,7 @@
 # gcs-lp
 
+WIP full description
+
 files inside
 - login page (sfac themed)
 - sbadmin2 admin dashboard template
