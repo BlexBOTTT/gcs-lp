@@ -22,7 +22,7 @@
     <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
     <link href="../../css/sb-admin-2.css" rel="stylesheet">
 
-    <link rel="icon" href="../../img/SFAC-logo.png">
+    <link rel="icon" href="../../img/SFAC-logo1.png">
 
 </head>
 
