@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "../../includes/header.php"; ?>
+<?php 
+    include "../../includes/header.php"; 
+    
+    $stud_id = $_GET['stud_id']
+?>
 
 <body id="page-top">
 
@@ -57,16 +61,16 @@
                                                 </div>
                                             </div>';
                                 unset($_SESSION['errors']);
-                            } elseif (!empty($_SESSION['success'])) {
+                            } elseif (!empty($_SESSION['success-edit'])) {
                                 echo ' <div class="alert alert-success fade show" role="alert">
                                                 <div class="d-flex justify-content-between align-items-center">
-                                                    <span class="alert-text"><strong>Successfully Added!</strong></span>
+                                                    <span class="alert-text"><strong>Successfully Edited!</strong></span>
                                                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>
                                                     </button>
                                                     </div>
                                             </div>';
-                                unset($_SESSION['success']);
+                                unset($_SESSION['success-edit']);
                             }
                             ?>
 
@@ -77,7 +81,7 @@
                                 </div>
                                 <div class="card-body">
 
-                                    <form action="userData/user.edit.notes.php" method="POST" enctype="multipart/form-data">
+                                    <form action="userData/user.edit.notes.php?stud_id=<?php echo $stud_id ?>" method="POST" enctype="multipart/form-data">
                                         <?php
                                             $get_notes = $conn->query("SELECT * FROM tbl_notes WHERE stud_id = '$_GET[stud_id]'");
                                             $res_count = $get_notes->num_rows;
@@ -86,6 +90,8 @@
                                             }
                                             $row = $get_notes->fetch_array();
                                         ?>
+
+                                        <input class="form-control" type="text" name="stud_id" value="<?php echo $row['stud_id']; ?>" hidden>
 
                                         <div class="row mx-auto">
                                             <div class="col-md-4">

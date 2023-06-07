@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "../../includes/header.php"; ?>
+<head>
+    <?php include '../../includes/header.php';
+
+    $stud_id = $_GET['stud_id']
+    ?>
+</head>
+
+
+
 
 <body id="page-top">
 
@@ -77,9 +85,7 @@
                                 </div>
                                 <div class="card-body">
 
-                                    <form action="userData/user.add.notes.php" method="POST" enctype="multipart/form-data">
-
-
+                                    <form action="userData/user.add.notes.php?stud_id=<?php echo $stud_id ?>" method="POST" enctype="multipart/form-data">
                                         <div class="row mx-auto">
                                             <div class="col-md-4">
                                                 <div class="my-3">
@@ -109,11 +115,9 @@
                                                 <a class="btn btn-secondary" href="view.notes.php">Go Back</a>
                                             </div>
                                             <div class="col-md-4"></div>
-                                            <div class="col-md-4 ">
+                                            <div class="col-md-4">
                                                 <div class="input-group input-group-outline my-3 justify-content-end">
-                                                    <button class="btn btn-danger" type="submit" name="submit">
-                                                            Submit
-                                                        </button>
+                                                    <button class="btn btn-danger" type="submit" name="submit">Submit</button>
                                                 </div>
                                             </div>
                                         </div>

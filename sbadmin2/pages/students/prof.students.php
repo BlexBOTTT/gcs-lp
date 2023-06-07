@@ -1464,7 +1464,9 @@
 
                                         <div class="row mx-auto">
                                             <div class="col-md-4">
-                                                <a class="btn btn-secondary" href="../list.students.php">Go Back</a>
+                                                <div class="input-group input-group-outline my-3">
+                                                    <a class="btn btn-secondary" href="../list.students.php">Go Back</a>
+                                                </div>
                                             </div>
                                             <div class="col-md-4"></div>
                                             <div class="col-md-4 ">
