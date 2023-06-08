@@ -1,13 +1,12 @@
-for roles:
+GCS-LP available roles:
 
 master admin role:
 super_admin
-super_admin03132804Jisun
 
 admin role:
-test
-test
+admGCS
+admGCS
 
 student role:
-awit
-awit
+stdGCS
+stdGCS
