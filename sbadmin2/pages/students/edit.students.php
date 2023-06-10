@@ -237,21 +237,19 @@
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="my-3">
-                                                    <label for="exampleFormControlSelect1" class="ms-0">Year Level/Grade Level</label>
+                                                    <label for="level" class="ms-0">Year Level/Grade Level</label>
                                                     <select class="form-control" id="level" name="level" placeholder="Year/Grade Level">
-                                                        <option value="<?php echo $row['yearlevel']; ?>">
-                                                            <?php echo $row['yearlevel']; ?></option>
                                                         <?php
                                                         $query1 = mysqli_query($conn, "SELECT * FROM tbl_grade_levels");
                                                         while ($row2 = mysqli_fetch_array($query1)) {
-                                                            echo '<option value="' . $row2['grade_level'] . '">' . $row2['grade_level'] . '</option>';
+                                                            $selected = ($row['yearlevel'] == $row2['grade_level']) ? 'selected' : '';
+                                                            echo '<option value="' . $row2['grade_level'] . '" ' . $selected . '>' . $row2['grade_level'] . '</option>';
                                                         }
-                                                        ?>
-                                                        <?php
+
                                                         $query = mysqli_query($conn, "SELECT * FROM tbl_year_levels");
                                                         while ($row1 = mysqli_fetch_array($query)) {
-                                                            echo '
-                                                            <option value="' . $row1['year_level'] . '">' . $row1['year_level'] . '</option>';
+                                                            $selected = ($row['yearlevel'] == $row1['year_level']) ? 'selected' : '';
+                                                            echo '<option value="' . $row1['year_level'] . '" ' . $selected . '>' . $row1['year_level'] . '</option>';
                                                         }
                                                         ?>
                                                     </select>
