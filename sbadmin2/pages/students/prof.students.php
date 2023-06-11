@@ -1385,77 +1385,93 @@
                                                     </div>
                                                 </div>                    
                                         </div>
+                                        
+                                        <!-- Display student evaluation and note if logged as admin role -->
+                                        <?php
+                                            if ($_SESSION['role'] == "Administrator") {
+                                                echo '
+                                                <!-- Testing and Student Evaluation -->
+                                                <div>
+                                                    <h2 class="text-center my-3"><b>Testing and Student Evaluation</b></h2>
+                                                    <h5 class="text-center my-3">(to be filled up by a psychometrician)</h5>
+                                                    <div class="table-responsive p-0 mx-3">
+                                                        <table class="table align-items-center mb-0">
+                                                            <thead>
+                                                                <tr class="light">
+                                                                    <th>Date of Assessment</th>
+                                                                    <th>Nature of Exam</th>
+                                                                    <th>Name of Test</th>
+                                                                    <th>Key Result</th>
+                                                                    <th>Description</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>';
 
-                                        <!-- Testing and Student Evaluation -->
-                                        <div>
-                                            <h2 class="text-center my-3"><b>Testing and Student Evaluation</b></h2>
-                                            <h5 class="text-center my-3">(to be filled up by a psychometrician)</h5>
-                                            <div class="table-responsive p-0 mx-3">
-                                                <table class="table align-items-center mb-0">
-                                                    <thead>
-                                                        <tr class="light">
-                                                            <th>Date of Assessment</th>
-                                                            <th>Nature of Exam</th>
-                                                            <th>Name of Test</th>
-                                                            <th>Key Result</th>
-                                                            <th>Description</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <?php $get_eval = mysqli_query($conn, "SELECT * FROM tbl_evaluation WHERE stud_id = '$_GET[stud_id]' ");
-                                                        while ($row = mysqli_fetch_array($get_eval)) {
-                                                            $id = $row['stud_id'];
-                                                        ?>
-                                                        <tr>
+                                                $get_eval = mysqli_query($conn, "SELECT * FROM tbl_evaluation WHERE stud_id = '" . $_GET['stud_id'] . "'");
+                                                while ($row = mysqli_fetch_array($get_eval)) {
+                                                    $id = $row['stud_id'];
+                                                    echo '
+                                                                <tr>
+                                                                    <td>' . $row['date'] . '</td>
+                                                                    <td>' . $row['exam'] . '</td>
+                                                                    <td>' . $row['test'] . '</td>
+                                                                    <td>' . $row['result'] . '</td>
+                                                                    <td>' . $row['description'] . '</td>
+                                                                </tr>';
+                                                }
 
-                                                            <td><?php echo $row['date'] ?></td>
-                                                            <td><?php echo $row['exam'] ?></td>
-                                                            <td><?php echo $row['test'] ?></td>
-                                                            <td><?php echo $row['result'] ?></td>
-                                                            <td><?php echo $row['description'] ?></td>
+                                                echo '
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
 
-                                                        </tr>
-                                                        <?php  } ?>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
+                                                <!-- Significant Notes -->
+                                                <div>
+                                                    <h2 class="text-center my-3"><b>Significant Notes</b></h2>
+                                                    <h5 class="text-center my-3">(to be filled up by the school counselor)</h5>
+                                                    <div class="table-responsive p-0 mx-3">
+                                                        <table class="table align-items-center mb-0">
+                                                            <thead>
+                                                                <tr class="light">
+                                                                    <th>Date</th>
+                                                                    <th>Incident</th>
+                                                                    <th>Remarks</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>';
 
-                                        <!-- Significant Notes -->
-                                        <div>
-                                        <h2 class="text-center my-3"><b>Significant Notes</b></h2>
-                                            <h5 class="text-center my-3">(to be filled up by the school counselor)</h5>
-                                            <div class="table-responsive p-0 mx-3">
-                                                <table class="table align-items-center mb-0">
-                                                    <thead>
-                                                        <tr class="light">
-                                                            <th>Date</th>
-                                                            <th>Incident</th>
-                                                            <th>Remarks</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <?php $get_notes = mysqli_query($conn, "SELECT * FROM tbl_notes WHERE stud_id = '$_GET[stud_id]' ");
-                                                        while ($row = mysqli_fetch_array($get_notes)) {
-                                                            $id = $row['stud_id'];
-                                                        ?>
-                                                        <tr>
-                                                            <td><?php echo $row['date'] ?></td>
-                                                            <td><?php echo $row['incident'] ?></td>
-                                                            <td><?php echo $row['remarks'] ?></td>
-                                                        </tr>
-                                                        <?php  } ?>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
+                                                $get_notes = mysqli_query($conn, "SELECT * FROM tbl_notes WHERE stud_id = '" . $_GET['stud_id'] . "'");
+                                                while ($row = mysqli_fetch_array($get_notes)) {
+                                                    $id = $row['stud_id'];
+                                                    echo '
+                                                                <tr>
+                                                                    <td>' . $row['date'] . '</td>
+                                                                    <td>' . $row['incident'] . '</td>
+                                                                    <td>' . $row['remarks'] . '</td>
+                                                                </tr>';
+                                                }
+
+                                                echo '
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>';
+                                            }
+                                        ?>
                            
                                     <!-- End Inputs -->
 
                                         <div class="row mx-auto">
                                             <div class="col-md-4">
                                                 <div class="input-group input-group-outline my-3">
-                                                    <a class="btn btn-secondary" href="../list.students.php">Go Back</a>
+                                                    <?php 
+                                                        if ($_SESSION['role'] == "Administrator") {
+                                                            echo '<a class="btn btn-secondary" href="list.students.php">Go Back</a>';
+                                                        } elseif ($_SESSION['role'] == "Student") {
+                                                            echo '<a class="btn btn-secondary" href="../dashboard/index.php">Go Back</a>';
+                                                        }  
+                                                    ?>                                                                                              
                                                 </div>
                                             </div>
                                             <div class="col-md-4"></div>

@@ -122,53 +122,80 @@
                                 </div>
                             </li>'; 
             }  elseif ($_SESSION['role'] == "Student") {
-                echo '
+                $get_user = mysqli_query($conn, "SELECT * FROM tbl_students");
+
+                $row = mysqli_fetch_array($get_user);
+                $id = $_SESSION['stud_id'];
+
+                echo '              
                 <div class="sidebar-heading">
-                                Manage
-                            </div>
-                
-                            <!-- Nav Item - Pages Collapse Menu -->
-                            <li class="nav-item">
-                                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                                    aria-expanded="true" aria-controls="collapseTwo">
-                                    <i class="fas fa-fw fa-cog"></i>
-                                    <span>Manage Students</span>
-                                </a>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                                    <div class="bg-white py-2 collapse-inner rounded">
-                                        <h6 class="collapse-header">Available Functions:</h6>
-                                        <a class="collapse-item" href="../students/add.students.php">Add Students</a>
-                                        <a class="collapse-item" href="../students/list.students.php">Student List</a>
-                                    </div>
-                                </div>
-                            </li>
-                
-                            <!-- Divider -->
-                            <hr class="sidebar-divider">
-                
-                            <!-- Heading -->
-                            <div class="sidebar-heading">
-                                User Lists
-                            </div>
-                
-                            <!-- Nav Item - Pages Collapse Menu -->
-                            <li class="nav-item">
-                                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                                    aria-expanded="true" aria-controls="collapsePages">
-                                    <i class="fas fa-fw fa-folder"></i>
-                                    <span>Forms</span>
-                                </a>
-                                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                                    <div class="bg-white py-2 collapse-inner rounded">
-                                    <h6 class="collapse-header">Available Forms Below:</h6>                                       
-                                        <a class="collapse-item" href="../forms/guidance.php">Blank Forms</a>
-                                        
-                                        <div class="collapse-divider"></div>
-                                        
-                                        
-                                    </div>
-                                </div>
-                            </li>'; 
+                    Manage
+                </div>
+
+                <!-- Nav Item - Manage Students Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseStudents"
+                        aria-expanded="true" aria-controls="collapseStudents">
+                        <i class="fas fa-fw fa-cog"></i>
+                        <span>Manage Student</span>
+                    </a>
+                    <div id="collapseStudents" class="collapse" aria-labelledby="headingStudents" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Available Functions:</h6>
+                            <a class="collapse-item" href="../students/edit.students.php?stud_id='. $id .'">Update Basic Info</a>
+                            <a class="collapse-item" href="../students/prof.students.php?stud_id='. $id .'">Update Student Profile</a>                                                     
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    Student Remarks
+                </div>
+
+                <!-- Nav Item - View Remarks Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseViewRemarks"
+                        aria-expanded="true" aria-controls="collapseViewRemarks">
+                        <i class="fas fa-fw fa-eye"></i>
+                        <span>View Remarks</span>
+                    </a>
+                    <div id="collapseViewRemarks" class="collapse" aria-labelledby="headingViewRemarks" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Available Forms Below:</h6>                                       
+                            <a class="collapse-item" href="../students/view.eva.students.php?stud_id='. $id .'">View Evaluation</a>
+                            
+                            <div class="collapse-divider"></div>   
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Divider -->
+                <hr class="sidebar-divider">
+
+                <!-- Heading -->
+                <div class="sidebar-heading">
+                    User Lists
+                </div>
+
+                <!-- Nav Item - Forms Collapse Menu -->
+                <li class="nav-item">
+                    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForms"
+                        aria-expanded="true" aria-controls="collapseForms">
+                        <i class="fas fa-fw fa-folder"></i>
+                        <span>Forms</span>
+                    </a>
+                    <div id="collapseForms" class="collapse" aria-labelledby="headingForms" data-parent="#accordionSidebar">
+                        <div class="bg-white py-2 collapse-inner rounded">
+                            <h6 class="collapse-header">Available Forms Below:</h6>                                       
+                            <a class="collapse-item" href="../forms/guidance.php">Blank Forms</a>
+                            <div class="collapse-divider"></div>                                        
+                        </div>
+                    </div>
+                </li>'; 
             }
             ?>
 

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include "../../includes/header.php"; ?>
+<?php include "../../includes/header.php";
+    $stud_id = $_GET['stud_id'] ?>
 
 <body id="page-top">
 
@@ -152,162 +153,84 @@
                             }
                             ?>
 
+                            
+
                             <!-- Basic Card Example -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Update Student</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Student Evaluation from Guidance</h6>
                                 </div>
                                 <div class="card-body">
-
                                     
-                                    
-                                    <form action="userData/user.edit.students.php" method="POST" enctype="multipart/form-data">
+                                    <!-- Start Inputs -->
                                         <?php
-                                            $get_student = $conn->query("SELECT * FROM tbl_students WHERE stud_id = '$_GET[stud_id]'");
-                                            $res_count = $get_student->num_rows;
+                                            $get_admin = $conn->query("SELECT * FROM tbl_students WHERE stud_id = '$_GET[stud_id]'");
+                                            $res_count = $get_admin->num_rows;
                                             if ($res_count == 0) {
                                                 // error code
                                             }
-                                            $row = $get_student->fetch_array();
+                                            $row = $get_admin->fetch_array();
 
                                         ?>
                                         
                                         <input class="form-control" type="text" name="stud_id" value="<?php echo $row['stud_id']; ?>" hidden>
-
-                                        <div class="row mx-auto justify-content-center">
-                                            <div class="col-md-4 my-4">
-                                                <div class="custom-file">
-                                                    <div class="text-center mb-4">
-                                                        <img id="profile-picture" class="img-fluid img-circle" src="data:image/jpeg;base64, <?php echo base64_encode($row['img']); ?>"
-                                                            alt="User profile picture" style="width: 100px; height: 100px;">
-                                                    </div>
-                                                    <div class="row justify-content-center">
-                                                        <div class="form-group col-md-12">
-                                                            <div class="input-group">
-                                                                <div class="custom-file">
-                                                                    <input type="file" class="custom-file-input" name="prof_img" id="prof_img" onchange="readURL(this);">
-                                                                    <label class="custom-file-label" for="prof_img">Choose file</label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mx-auto">
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">First Name</label>
-                                                    <input type="text" name="firstname" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['firstname']; ?>"
-                                                        required>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Middle Name</label>
-                                                    <input type="text" name="middlename" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['middlename']; ?>">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                <label class="form-label">Last Name</label>
-                                                    <input type="text" name="lastname" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['lastname']; ?>"
-                                                        required>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mx-auto">
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Email Address</label>
-                                                    <input type="email" name="email" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['email']; ?>">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Student Number</label>
-                                                    <input type="text" name="stud_no" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['stud_no']; ?>">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label for="level" class="ms-0">Year Level/Grade Level</label>
-                                                    <select class="form-control" id="level" name="level" placeholder="Year/Grade Level">
-                                                        <?php
-                                                        $query1 = mysqli_query($conn, "SELECT * FROM tbl_grade_levels");
-                                                        while ($row2 = mysqli_fetch_array($query1)) {
-                                                            $selected = ($row['yearlevel'] == $row2['grade_level']) ? 'selected' : '';
-                                                            echo '<option value="' . $row2['grade_level'] . '" ' . $selected . '>' . $row2['grade_level'] . '</option>';
-                                                        }
-
-                                                        $query = mysqli_query($conn, "SELECT * FROM tbl_year_levels");
-                                                        while ($row1 = mysqli_fetch_array($query)) {
-                                                            $selected = ($row['yearlevel'] == $row1['year_level']) ? 'selected' : '';
-                                                            echo '<option value="' . $row1['year_level'] . '" ' . $selected . '>' . $row1['year_level'] . '</option>';
-                                                        }
+                       
+                                        <br>
+                                                                             
+                                        <!-- Testing and Student Evaluation -->
+                                        <div>
+                                            <h2 class="text-center my-3"><b>Testing and Student Evaluation</b></h2>
+                                            <h5 class="text-center my-3">(to be filled up by a psychometrician)</h5>
+                                            <div class="table-responsive p-0 mx-3">
+                                                <table class="table align-items-center mb-0">
+                                                    <thead>
+                                                        <tr class="light">
+                                                            <th>Date of Assessment</th>
+                                                            <th>Nature of Exam</th>
+                                                            <th>Name of Test</th>
+                                                            <th>Key Result</th>
+                                                            <th>Description</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <?php $get_eval = mysqli_query($conn, "SELECT * FROM tbl_evaluation WHERE stud_id = '$_GET[stud_id]' ");
+                                                        while ($row = mysqli_fetch_array($get_eval)) {
+                                                            $id = $row['stud_id'];
                                                         ?>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row mx-auto">
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Username</label>
-                                                    <input type="text" name="username" class="form-control" autocomplete="off"
-                                                     required value="<?php echo $row['username']; ?>">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Password</label>
-                                                    <input type="password" name="password" class="form-control" autocomplete="off" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4">
-                                                <div class="my-3">
-                                                    <label class="form-label">Confirm Password</label>
-                                                    <input type="password" name="password2" class="form-control" autocomplete="off" required>
-                                                </div>
+                                                        <tr>
+
+                                                            <td><?php echo $row['date'] ?></td>
+                                                            <td><?php echo $row['exam'] ?></td>
+                                                            <td><?php echo $row['test'] ?></td>
+                                                            <td><?php echo $row['result'] ?></td>
+                                                            <td><?php echo $row['description'] ?></td>
+
+                                                        </tr>
+                                                        <?php  } ?>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                         </div>
 
                                         <div class="row mx-auto">
                                             <div class="col-md-4">
-                                                <?php 
-                                                    if ($_SESSION['role'] == "Super Admin" || $_SESSION['role'] == "Administrator") {
-                                                        echo '<a class="btn btn-secondary" href="list.students.php">Go Back</a>';
-                                                    } elseif ($_SESSION['role'] == "Student") {
-                                                        echo '<a class="btn btn-secondary" href="../dashboard/index.php">Go Back</a>';
-                                                    }  
-                                                ?>
+                                                <div class="input-group input-group-outline my-3">
+                                                    <a class="btn btn-secondary" href="../dashboard/index.php">Go Back</a>
+                                                </div>
                                             </div>
                                             <div class="col-md-4"></div>
-                                            <div class="col-md-4 ">
+                                            <div class="col-md-4">
                                                 <div class="input-group input-group-outline my-3 justify-content-end">
-                                                    <button class="btn btn-danger" type="submit" name="submit">Submit</button>
+                                                    
                                                 </div>
                                             </div>
-                                        </div>
-
-                                    </form>
-
+                                        </div>                                              
+                                    <!-- End Inputs -->                      
+              
                                 </div>
                             </div>
-
                         </div>
-
-
                     </div>
-                    
-                    
-
                 </div>
             <!-- End of Main Content -->
 
