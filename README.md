@@ -5,7 +5,7 @@ A simple group project from school for "Guidance Counseling System"
 Includes following below:
 - Landing Page
 - Log-in Page
-- Dashboard Page with according logged in roles and basic sessions
+- Dashboard Page with according logged in roles, basic sessions, ~~and manipulate database via frontend interaction~~.
 - .sql file with log-in credentials
 
 ## Installation Guide
@@ -33,11 +33,11 @@ Follow these steps to install and run the GCS LP project on your local machine.
 6. Click on the "Choose File" button and select the `gcs-lp.sql` file from the `backups` folder of the project.
 7. Click the "Go" button to import the SQL file into the database.
 
-## ~~Step 3: Configure the project~~ Or you can skip this step
+### Step 3: Configure the project ~or you can skip this step~
 
-~~1. Open the project folder and navigate to the `sbadmin2/includes` directory.~~
-~~2. Open the `conn.php` file in a text editor.~~
-~~3. Modify the database configuration settings according to your environment (e.g., database name, username, password).~~
+1. Open the project folder and navigate to the `sbadmin2/includes` directory.
+2. Open the `conn.php` file in a text editor.
+3. Modify the database configuration settings according to your environment (e.g., database name, username, password).
 
 ### Step 4: Start the application
 
@@ -58,5 +58,3 @@ https://templatemo.com/tm-509-hydro
 
 admin dashboard link:
 https://startbootstrap.com/theme/sb-admin-2
-
-change user interface (front-end) of that cloned one to the links provided above
